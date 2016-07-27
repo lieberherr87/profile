@@ -111,6 +111,11 @@ li a {
   left: 0;
   top: 0;
   bottom: 0;
+  background-color: #222E50;
+}
+
+i {
+  font-size: 2em;
 }
 
 .page-content {
