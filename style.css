@@ -15,18 +15,18 @@ h1 h2 h3 {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 1.5em;
   letter-spacing: 1px;
   line-height: 2em;
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 1.2em;
   line-height: 1.5em;
 }
 
 h3 {
-  font-size: 1.2em;
+  font-size: 1.1em;
   line-height: 1.2em;
 }
 
@@ -94,6 +94,7 @@ td {
 .list-inline li i {
   font-size: 2em;
   text-align: center;
+  line-height: 1.5em;
 }
 
 li a {
@@ -102,4 +103,16 @@ li a {
 
 .text-center {
   text-align: center;
+}
+
+.side-bar {
+  position: fixed;
+  width: 300px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.page-content {
+  margin-left: 300px;
 }
