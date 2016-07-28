@@ -5,7 +5,7 @@ body {
   color: #69696C;
 }
 
-#toys_section {
+#toys-section {
   text-align: left;
 }
 
@@ -52,7 +52,7 @@ a:hover {
 }
 
 .container {
-  width: 700px;
+  width: 90%;
   margin: auto;
   padding: 30px;
 }
@@ -61,7 +61,7 @@ img {
   width: 170px;
 }
 
-#profile_picture {
+#profile-picture {
   width: 400px;
   border-radius: 2%;
 }
@@ -105,19 +105,33 @@ li a {
   text-align: center;
 }
 
-.side-bar {
+.sidebar {
   position: fixed;
-  width: 300px;
+  width: 240px;
   left: 0;
   top: 0;
   bottom: 0;
   background-color: #222E50;
+  text-align: center;
 }
 
-i {
-  font-size: 2em;
+.sidebar ul {
+  padding-top: 60px;
+  padding-left: 0px;
+  list-style: none;
+}
+
+.sidebar i {
+  font-size: 3em;
+  color: #007991;
+  line-height: 1.6em;
+  padding-left: 0px;
+}
+
+.sidebar i:hover {
+  color: white;
 }
 
 .page-content {
-  margin-left: 300px;
+  margin-left: 240px;
 }
